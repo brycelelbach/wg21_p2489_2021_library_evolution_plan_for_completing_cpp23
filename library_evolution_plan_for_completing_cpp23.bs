@@ -1,0 +1,222 @@
+<pre class='metadata'>
+Title: Library Evolution Plan for Completing C++23
+Shortname: D2489
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+URL: https://wg21.link/P2489
+!Source: <a href="https://github.com/brycelelbach/wg21_p2489_library_evolution_plan_for_completing_cpp23/blob/main/library_evolution_plan_for_completing_cpp23.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2489_library_evolution_plan_for_completing_cpp23/issues
+Metadata Order: Editor, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+</pre>
+
+# Introduction # {#introduction}
+
+This paper describes Library Evolution leadership's plan for the end of the
+  C++23 design cycle.
+C++23 must be feature complete by 2021-02-07, approximately 3 months from the
+  publication of this paper.
+
+# Focus # {#focus}
+
+The C++ Committee's time and resources are limited.
+We must use them wisely, which means we must focus and that means making hard
+  decisions.
+If we split our focus and try to do too many things, we will be unable to
+  accompolish anything.
+
+Library Evolution leadership has triaged active Library Evolution papers and
+  determined which work we believe has a reasonable chance of making it into
+  C++23.
+Until the C++23 feature complete date, we will focus all our resources on that
+  work, and defer all other work.
+
+Our decisions were based upon:
+- The plan for C++23 that the entire Committee adopted (see
+    <a href="https://wg21.link/P0592">P0592</a>).
+- Our understanding of what Library Evolution feels is important.
+- How close we feel work is to Library Evolution design approval.
+- How much review and revision the work has undergone in Library Evolution
+    recently.
+- Disposition of unresolved questions or sustained objections regarding the
+    work.
+- Relation to new features going into C++23 or major features that went into
+    C++20.
+
+## Objectives for C++23 ## {#objectives-for-cpp23}
+
+The following is what we will work on delivering in the rest of the C++23
+  design cycle.
+This is by no means a guarantee that these facilities will make it into C++23.
+
+We will commit significant time and resources to the following work, which has
+  previously been identified as priorities:
+- <a href="https://wg21.link/P2300">P2300</a>: `std::execution`
+    - Plenary adopted priority (see <a href="https://wg21.link/P0592">P0592</a>).
+    - [Library Evolution voted to continue working on this in the C++23 cycle](https://github.com/cplusplus/papers/issues/1054#issuecomment-947011149).
+- <a href="https://wg21.link/P2168">P2168</a>: `std::generator`
+    - Plenary adopted priority (see <a href="https://wg21.link/P0592">P0592</a>).
+- <a href="https://wg21.link/P2214">P2214</a>: A Plan for C++23 Ranges
+    - Improvements to C++20's largest new library facility.
+    - [This work has been split into multiple separate papers](https://github.com/cplusplus/papers/issues?q=is%3Aissue+is%3Aopen+label%3ALEWG+label%3Aranges+label%3Ac%2B%2B23).
+
+We will commit time and resources to the following work, which is mature,
+  important to a wide audience, and likely to be design approved after an
+  additional round of review:
+- <a href="https://wg21.link/P2093">P2093</a>: Formatted Output
+    - The Text and Unicode study group has approved this work and recommended it
+        for C++23.
+- <a href="https://wg21.link/P0009">P0009</a>: `std::mdspan`
+- <a href="https://wg21.link/P1467">P1467</a>: Extended Floating Point Types
+    - Evolution is trying to advance this for C++23 and it needs Library
+        Evolution approval.
+    - Missed last ship cycle.
+- <a href="https://wg21.link/P2198">P2198</a>/<a href="https://wg21.link/P2407">P2407</a>:
+    Freestanding
+    - Library Evolution requested that this work be split out of
+        <a href="https://wg21.link/P1641">P1641</a>/<a href="https://wg21.link/P1642">P1642</a>,
+        which are already C++23 design approved.
+
+## Possibilities for C++23 ## {#possibilities-for-cpp23}
+
+All of this work is relatively small in size, but doesn't warrant a high
+  priority.
+However, this work is a good fit for mailing list review, and thus could be
+  advanced without taking substantial effort away from [[#objectives-for-cpp23]].
+
+The following work has already been through at least one round of mailing list
+  review.
+If mailing list reviews of this work are non-controversial, this work could be
+  advanced directly from mailing list review to electronic polls and make it to
+  C++23.
+
+- <a href="https://wg21.link/P2363">P2363</a>: Extending Associative Containers
+    With The Remaining Heterogeneous Overloads
+- <a href="https://wg21.link/P2249">P2249</a>: Mixed Comparisons For Smart
+    Pointers
+- <a href="https://wg21.link/P2283">P2283</a>: `constexpr` For Specialized
+    Memory Algorithms
+- <a href="https://wg21.link/P2248">P2248</a>: Enabling List-Initialization For
+    Algorithms
+- <a href="https://wg21.link/P0211">P0211</a>/<a href="https://wg21.link/P0316">P0316</a>:
+    `std::allocate_unique`
+    - Missed last two ship cycles.
+
+The following work involves some degree of breaking change to a C++20 facility.
+As such, it would probably require a telecon to advance.
+If it can be refined through mailing list review, there is a small possibility
+  that telecon time could be committed to this work:
+
+- <a href="https://wg21.link/P2404">P2404</a>: Relaxing
+    `std::equality_comparable_with`'s And `std::three_way_comparable_with`'s
+    Common Reference Requirements
+- <a href="https://wg21.link/P2447">P2447</a>: `std::span` And The Missing
+    Constructor
+
+## Not for C++23 ## {#not-for-cpp23}
+
+Unfortunately, there is some active work that is unlikely to get into C++23.
+Our time and resources are limited, so we must stop working on these things
+  until the end of the C++23 design cycle in 2022-02.
+Spending effort on any of these things for C++23 would mean some of the
+  work listed in [[#objectives-for-cpp23]] would have to be deferred until after
+  C++23.
+
+This work is large and will likely need multiple rounds of review and
+  revision before it can advance:
+- <a href="https://wg21.link/P1673">P1673</a>: BLAS Linear Algebra
+- <a href="https://wg21.link/P0447">P0447</a>: `std::hive`
+
+This work was reviewed on the mailing list, and we don't believe it can advance
+  without a telecon review:
+- <a href="https://wg21.link/P1068">P1068</a>: Vector API For Random Number
+    Generation
+- <a href="https://wg21.link/P0205">P0205</a>: Allow Seeding Random Number
+    Engines With `std::random_device`
+- <a href="https://wg21.link/P2370">P2370</a>: Stacktrace From Exception
+- <a href="https://wg21.link/P2047">P2047</a>: An Allocator-Aware Optional Type
+
+This work is entirely new and has not yet been reviewed:
+- <a href="https://wg21.link/P2472">P2472</a>: `std::make_function_ref`: A More
+    Functional `std::function_ref`
+- <a href="https://wg21.link/P2405">P2405</a>: `std::nullopt_t` And
+    `std::nullptr_t` Should Both Have `operator<=>` And `operator==`
+- <a href="https://wg21.link/P2438">P2438</a>: `std::string::substr() &&`
+- <a href="https://wg21.link/LWG3579">LWG3579</a>: Complexity Guarantees For
+    `resize` And `append` Across The Library
+
+This work is blocked waiting for revisions or new authors:
+- <a href="https://wg21.link/P2139">P2139</a>: Reviewing Deprecated Facilities
+    Of C++20 For C++23
+- <a href="https://wg21.link/P1056">P1056</a>: `std::lazy`
+- <a href="https://wg21.link/P1288">P1288</a>: Coroutine Concepts And
+    Metafunctions
+- <a href="https://wg21.link/LWG3545">LWG3545</a>: `std::pointer_traits` Should
+    Be SFINAE-Friendly
+
+# Telecons # {#telecons}
+
+We will use our weekly telecons to advance C++23 work until 2021-01-18, which
+  is when we will start the final Library Evolution electronic polls for C++23
+  (see [[#polls]]).
+
+We will not hold meetings the last two weeks of 2021 due to holidays.
+
+As per [Library Evolution decision at the end of the 2021 October supertelecon](https://github.com/cplusplus/papers/issues/1054#issuecomment-947011149),
+  we will hold two day Library Evolution supertelecons in 2021 December and
+  2022 January to work on <a href="https://wg21.link/P2300">P2300</a> (`std::execution`).
+
+All telecons have been added to the Committee calendar and
+  [the Library Evolution wiki](https://github.com/cplusplus/LEWG/wiki/2021-Telecons).
+
+## 2021 December Library Evolution Supertelecon ## {#2021-december-supertelecon}
+
+- Topic: <a href="https://wg21.link/P2300">P2300</a>: `std::execution` Library Design Review.
+- 2021-12-06, 7:00 to 9:00 and 9:30 to 11:00 Pacific
+- 2021-12-07, 7:00 to 9:00 and 9:30 to 11:00 Pacific
+
+## 2022 January Library Evolution Supertelecon ## {#2022-january-supertelecon}
+
+- Topic: <a href="https://wg21.link/P2300">P2300</a>: `std::execution` Library Design Review.
+- 2022-01-10 7:00 to 9:00 and 9:30 to 11:00 Pacific
+- 2022-01-11 7:00 to 9:00 and 9:30 to 11:00 Pacific
+
+# Polls # {#polls}
+
+Library Evolution will conduct three electronic polling periods to advance work
+  for C++23, one per month.
+
+## 2021 November Polling Period ## {#2021-november-polling-period}
+
+[This polling period is already underway at the time of publication of this paper](https://wg21.link/P2454R0).
+
+- 2021-10-31: Draft polls distributed by mailing list.
+- 2021-11-01: Final Library Evolution discussion telecon on the polls.
+- 2021-11-03: Start of the polling period.
+- 2021-11-30: End of the polling period.
+- 2021-12-03: Chairs share results and summarize outcomes.
+
+## 2021 December Polling Period ## {#2021-december-polling-period}
+
+- 2021-12-03: Draft polls distributed by mailing list.
+- 2021-12-07: Final Library Evolution discussion telecon on the polls.
+- 2021-12-08: Start of the polling period.
+- 2022-01-07: End of the polling period.
+- 2022-01-11: Chairs share results and summarize outcomes.
+
+## 2022 January Polling Period ## {#2022-january-polling-period}
+
+This is the final polling period for shipping Standard Library features for C++23.
+
+- 2022-01-14: Draft polls distributed by mailing list.
+- 2022-01-18: Final Library Evolution discussion telecon on the polls.
+- 2022-01-18: Start of the polling period.
+- 2022-02-04: End of the polling period.
+- 2021-02-07: Chairs share results and summarize outcomes.
+
