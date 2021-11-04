@@ -29,7 +29,7 @@ The C++ Committee's time and resources are limited.
 We must use them wisely, which means we must focus and that means making hard
   decisions.
 If we split our focus and try to do too many things, we will be unable to
-  accompolish anything.
+  accomplish anything.
 
 Library Evolution leadership has triaged active Library Evolution papers and
   determined which work we believe has a reasonable chance of making it into
