@@ -175,7 +175,7 @@ As per [Library Evolution decision at the end of the 2021 October supertelecon](
 All telecons have been added to the Committee calendar and
   [the Library Evolution wiki](https://github.com/cplusplus/LEWG/wiki/2021-Telecons).
 
-## 2021-12 December Library Evolution Supertelecon ## {#2021-12-supertelecon}
+## 2021-12 Library Evolution Supertelecon ## {#2021-12-supertelecon}
 
 - Topic: <a href="https://wg21.link/P2300">P2300</a>: `std::execution` Library Design Review.
 - 2021-12-06, 7:00 to 9:00 and 9:30 to 11:00 Pacific
