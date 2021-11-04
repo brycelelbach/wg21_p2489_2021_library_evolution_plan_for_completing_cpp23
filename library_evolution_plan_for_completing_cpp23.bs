@@ -169,19 +169,19 @@ We will use our weekly telecons to advance C++23 work until 2021-01-18, which
 We will not hold meetings the last two weeks of 2021 due to holidays.
 
 As per [Library Evolution decision at the end of the 2021 October supertelecon](https://github.com/cplusplus/papers/issues/1054#issuecomment-947011149),
-  we will hold two day Library Evolution supertelecons in 2021 December and
-  2022 January to work on <a href="https://wg21.link/P2300">P2300</a> (`std::execution`).
+  we will hold two day Library Evolution supertelecons in 2021-12 and 2022-01
+  to work on <a href="https://wg21.link/P2300">P2300</a> (`std::execution`).
 
 All telecons have been added to the Committee calendar and
   [the Library Evolution wiki](https://github.com/cplusplus/LEWG/wiki/2021-Telecons).
 
-## 2021 December Library Evolution Supertelecon ## {#2021-december-supertelecon}
+## 2021-12 December Library Evolution Supertelecon ## {#2021-12-supertelecon}
 
 - Topic: <a href="https://wg21.link/P2300">P2300</a>: `std::execution` Library Design Review.
 - 2021-12-06, 7:00 to 9:00 and 9:30 to 11:00 Pacific
 - 2021-12-07, 7:00 to 9:00 and 9:30 to 11:00 Pacific
 
-## 2022 January Library Evolution Supertelecon ## {#2022-january-supertelecon}
+## 2022-01 Library Evolution Supertelecon ## {#2022-01-supertelecon}
 
 - Topic: <a href="https://wg21.link/P2300">P2300</a>: `std::execution` Library Design Review.
 - 2022-01-10 7:00 to 9:00 and 9:30 to 11:00 Pacific
@@ -192,7 +192,7 @@ All telecons have been added to the Committee calendar and
 Library Evolution will conduct three electronic polling periods to advance work
   for C++23, one per month.
 
-## 2021 November Polling Period ## {#2021-november-polling-period}
+## 2021-11 Polling Period ## {#2021-11-polling-period}
 
 [This polling period is already underway at the time of publication of this paper](https://wg21.link/P2454R0).
 
@@ -202,7 +202,7 @@ Library Evolution will conduct three electronic polling periods to advance work
 - 2021-11-30: End of the polling period.
 - 2021-12-03: Chairs share results and summarize outcomes.
 
-## 2021 December Polling Period ## {#2021-december-polling-period}
+## 2021-12 Polling Period ## {#2021-12-polling-period}
 
 - 2021-12-03: Draft polls distributed by mailing list.
 - 2021-12-07: Final Library Evolution discussion telecon on the polls.
@@ -210,7 +210,7 @@ Library Evolution will conduct three electronic polling periods to advance work
 - 2022-01-07: End of the polling period.
 - 2022-01-11: Chairs share results and summarize outcomes.
 
-## 2022 January Polling Period ## {#2022-january-polling-period}
+## 2022-01 Polling Period ## {#2022-01-polling-period}
 
 This is the final polling period for shipping Standard Library features for C++23.
 
