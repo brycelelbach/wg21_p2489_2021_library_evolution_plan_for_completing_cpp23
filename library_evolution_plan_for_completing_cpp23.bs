@@ -178,14 +178,14 @@ All telecons have been added to the Committee calendar and
 ## 2021-12 Library Evolution Supertelecon ## {#2021-12-supertelecon}
 
 - Topic: <a href="https://wg21.link/P2300">P2300</a>: `std::execution` Library Design Review.
-- 2021-12-06, 7:00 to 9:00 and 9:30 to 11:00 Pacific
-- 2021-12-07, 7:00 to 9:00 and 9:30 to 11:00 Pacific
+- 2021-12-06 (Monday), 7:00 to 9:00 and 9:30 to 11:00 Pacific
+- 2021-12-07 (Tuesday), 7:00 to 9:00 and 9:30 to 11:00 Pacific
 
 ## 2022-01 Library Evolution Supertelecon ## {#2022-01-supertelecon}
 
 - Topic: <a href="https://wg21.link/P2300">P2300</a>: `std::execution` Library Design Review.
-- 2022-01-10 7:00 to 9:00 and 9:30 to 11:00 Pacific
-- 2022-01-11 7:00 to 9:00 and 9:30 to 11:00 Pacific
+- 2022-01-11 (Tuesday), 7:00 to 9:00 and 9:30 to 11:00 Pacific
+- 2022-01-12 (Wednesday), 7:00 to 9:00 and 9:30 to 11:00 Pacific
 
 # Polls # {#polls}
 
