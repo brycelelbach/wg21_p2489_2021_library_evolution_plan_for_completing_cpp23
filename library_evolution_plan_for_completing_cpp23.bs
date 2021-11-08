@@ -79,6 +79,8 @@ We will commit time and resources to the following work, which is mature,
     - The Text and Unicode study group has approved this work and recommended it
         for C++23.
 - <a href="https://wg21.link/P0009">P0009</a>: `std::mdspan`
+    - Previously design approved for the Library Fundamentals TS, being retargeted
+        for C++23.
 - <a href="https://wg21.link/P1467">P1467</a>: Extended Floating Point Types
     - Evolution is trying to advance this for C++23 and it needs Library
         Evolution approval.
