@@ -138,7 +138,7 @@ Spending effort on any of these things for C++23 would mean some of the
 
 This work is large and will likely need multiple rounds of review and
   revision before it can advance:
-- <a href="https://wg21.link/P1673">P1673</a>: BLAS Linear Algebra
+- <a href="https://wg21.link/P1673">P1673</a>/<a href="https://wg21.link/P1385">P1385</a>: Linear Algebra
 - <a href="https://wg21.link/P0447">P0447</a>: `std::hive`
 
 This work was reviewed on the mailing list, and we don't believe it can advance
