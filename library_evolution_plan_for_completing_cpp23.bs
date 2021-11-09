@@ -66,11 +66,15 @@ We will commit significant time and resources to the following work, which has
 - <a href="https://wg21.link/P2300">P2300</a>: `std::execution`
     - Plenary adopted priority (see <a href="https://wg21.link/P0592">P0592</a>).
     - [Library Evolution voted to continue working on this in the C++23 cycle](https://github.com/cplusplus/papers/issues/1054#issuecomment-947011149).
-- <a href="https://wg21.link/P2168">P2168</a>: `std::generator`
-    - Plenary adopted priority (see <a href="https://wg21.link/P0592">P0592</a>).
 - <a href="https://wg21.link/P2214">P2214</a>: A Plan for C++23 Ranges
     - Improvements to C++20's largest new library facility.
     - [This work has been split into separate papers](https://github.com/cplusplus/papers/issues?q=is%3Aissue+is%3Aopen+label%3ALEWG+label%3Aranges+label%3Ac%2B%2B23).
+
+We would commit significant time and resources to the following work, which has
+  previously been identified as ppriorities, however this work is currently
+  blocked waiting for revisions or new authors:
+- <a href="https://wg21.link/P2168">P2168</a>: `std::generator`
+    - Plenary adopted priority (see <a href="https://wg21.link/P0592">P0592</a>).
 
 We will commit time and resources to the following work, which is mature,
   important to a wide audience, and likely to be design approved after an
