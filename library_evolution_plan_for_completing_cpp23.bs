@@ -1,8 +1,8 @@
 <pre class='metadata'>
 Title: Library Evolution Plan for Completing C++23
-Shortname: D2489
+Shortname: P2489
 Revision: 0
-Status: D
+Status: P
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
@@ -75,6 +75,8 @@ We would commit significant time and resources to the following work, which has
   blocked waiting for revisions or new authors:
 - <a href="https://wg21.link/P2168">P2168</a>: `std::generator`
     - Plenary adopted priority (see <a href="https://wg21.link/P0592">P0592</a>).
+- <a href="https://wg21.link/P1056">P1056</a>: `std::lazy`
+    - Plenary adopted priority (see <a href="https://wg21.link/P0592">P0592</a>).
 
 We will commit time and resources to the following work, which is mature,
   important to a wide audience, and likely to be design approved after an
@@ -120,7 +122,7 @@ If mailing list reviews of this work are non-controversial, this work could be
     `std::allocate_unique`
     - Missed last two ship cycles.
 
-The following work involves some degree of breaking change to a C++20 facility.
+The following work involves some degree of breaking change.
 As such, it would probably require a telecon to advance.
 If it can be refined through mailing list review, there is a small possibility
   that telecon time could be committed to this work:
@@ -130,6 +132,8 @@ If it can be refined through mailing list review, there is a small possibility
     Common Reference Requirements
 - <a href="https://wg21.link/P2447">P2447</a>: `std::span` And The Missing
     Constructor
+- <a href="https://wg21.link/P2472">P2472</a>: `std::make_function_ref`: A More
+    Functional `std::function_ref`
 
 ## Not for C++23 ## {#not-for-cpp23}
 
@@ -154,9 +158,7 @@ This work was reviewed on the mailing list, and we don't believe it can advance
 - <a href="https://wg21.link/P2370">P2370</a>: Stacktrace From Exception
 - <a href="https://wg21.link/P2047">P2047</a>: An Allocator-Aware Optional Type
 
-This work is entirely new and has not yet been reviewed:
-- <a href="https://wg21.link/P2472">P2472</a>: `std::make_function_ref`: A More
-    Functional `std::function_ref`
+This work is new and either in early review or has not been reviewed:
 - <a href="https://wg21.link/P2405">P2405</a>: `std::nullopt_t` And
     `std::nullptr_t` Should Both Have `operator<=>` And `operator==`
 - <a href="https://wg21.link/P2438">P2438</a>: `std::string::substr() &&`
@@ -166,7 +168,6 @@ This work is entirely new and has not yet been reviewed:
 This work is blocked waiting for revisions or new authors:
 - <a href="https://wg21.link/P2139">P2139</a>: Reviewing Deprecated Facilities
     Of C++20 For C++23
-- <a href="https://wg21.link/P1056">P1056</a>: `std::lazy`
 - <a href="https://wg21.link/P1288">P1288</a>: Coroutine Concepts And
     Metafunctions
 - <a href="https://wg21.link/LWG3545">LWG3545</a>: `std::pointer_traits` Should
